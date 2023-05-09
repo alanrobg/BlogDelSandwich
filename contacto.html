@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Blog del Sandwich</title>
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__texto no-margin centrar-texto">Blog<span class="logo__bold">DelSandwich</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+                    <a class="navegacion__enlace" href="cursos.html">Curso</a>
+                    <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+            
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin">Blog del sandwich con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+    <main class="contenedor">
+        <h3 class="centrar-texto">Contacto</h3>
+        <div class="contenedor-bg"></div>
+        <form class="formulario">
+            <div class="campo">
+                <label class="formulario__label" for="nombre">Nombre</label>
+                <input type="text" class="formulario__field" placeholder="Tu nombre" id="nombre">
+            </div>
+           <div class="campo">
+                <label class="formulario__label" for="e-mail">E-mail</label>
+                <input type="email" class="formulario__field" placeholder="Tu E-mail" id="e-mail">
+           </div>
+            <div class="campo">
+                <label class="formulario__label" for="textarea">Mensaje</label>
+                <textarea class="formulario__field formulario__field--textarea" id="textarea"></textarea>
+            </div>
+            <input type="submit" class="boton boton--primario" value="Enviar">
+        </form>
+    </main>
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h3 class="logo__texto no-margin centrar-texto">Blog<span class="logo__bold">DelSandwich</span></h3>
+                </a>
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="">Nosotros</a>
+                    <a class="navegacion__enlace" href="">Curso</a>
+                    <a class="navegacion__enlace" href="">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
